@@ -33,6 +33,7 @@ public class MenuManager : MonoBehaviour
             {
                 Menu newMenu = Instantiate(menu);
                 newMenu.GetComponent<RectTransform>().SetParent(transform) ;
+                Debug.log("New changes Xyz");
             }
         }
     }
